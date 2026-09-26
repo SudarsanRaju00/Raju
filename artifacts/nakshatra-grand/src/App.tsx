@@ -214,20 +214,58 @@ function Home() {
         )}
       </header>
 
-      <section id="top" className="hero-noise relative isolate flex min-h-[720px] items-end overflow-hidden bg-[#251d1a] pt-[76px] text-[#f1e9dc] sm:min-h-[790px]">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="hero-image absolute inset-0 -z-20 h-full w-full object-cover object-center opacity-65"
-          data-testid="video-hero"
-        >
-          <source
-            src="/Nakshatra-Grand-Dining-Sep-26-11-46-40 (1).mp4"
-            type="video/mp4"
-          />
-        </video>
+     <section
+  id="top"
+  className="hero-noise relative isolate flex min-h-[720px] items-end overflow-hidden bg-[#251d1a] pt-[76px] text-[#f1e9dc] sm:min-h-[790px]"
+>
+
+  {/* HERO IMAGE — IDI UNDAALI */}
+  <img 
+    src="/images/hero-thali.jpg" 
+    alt="A generous Indian thali and biryani set for an evening meal" 
+    className="hero-image absolute inset-0 -z-20 h-full w-full object-cover object-center opacity-65" 
+    data-testid="img-hero-food" 
+  />
+
+  {/* existing hero overlay + content */}
+  
+</section>
+
+
+{/* SEPARATE VIDEO SECTION — IDI KOTTHADI */}
+<section className="bg-[#251d1a] px-5 py-16 text-[#f1e9dc] sm:px-8 sm:py-24 lg:px-12">
+  <div className="mx-auto max-w-[1200px]">
+
+    <div className="mb-8 text-center">
+      <p className="text-[10px] font-bold uppercase tracking-[0.32em] text-[#d2b276]">
+        Experience Nakshatra Grand
+      </p>
+
+      <h2 className="mt-4 font-display text-4xl leading-tight sm:text-6xl">
+        A glimpse of <em className="text-[#d2b276]">our world.</em>
+      </h2>
+    </div>
+
+    <div className="overflow-hidden border border-[#b28b4c]/60 shadow-2xl">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        className="block h-auto w-full object-cover"
+      >
+        <source
+          src="/Nakshatra-Grand-Dining-Sep-26-11-46-40 (1).mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+  </div>
+</section>
+
+      <section id="story"
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(30,25,23,.96)_0%,rgba(30,25,23,.7)_38%,rgba(30,25,23,.18)_80%),linear-gradient(0deg,rgba(30,25,23,.96),transparent_50%)]" />
         <div className="absolute right-[8%] top-[25%] -z-10 hidden h-[260px] w-[260px] rounded-full border border-[#b28b4c]/25 lg:block" />
         <div className="absolute right-[12%] top-[31%] -z-10 hidden h-[170px] w-[170px] rounded-full border border-[#b28b4c]/20 lg:block" />
