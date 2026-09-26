@@ -1,0 +1,29 @@
+kind = "video"
+videoAspectRatio = "9:16"
+previewPath = "/nakshatra-grand-reel/"
+title = "Nakshatra Grand — Evening Table"
+description = "A short vertical animated brand film for Nakshatra Grand Restaurant, using cinematic food imagery, editorial typography, and subtle Indian-inspired motion to convey a memorable evening dining experience."
+version = "1.0.0"
+id = "artifacts/nakshatra-grand-reel"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/nakshatra-grand-reel/" ]
+localPort = 22277
+
+[services.development]
+run = "pnpm --filter @workspace/nakshatra-grand-reel run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/nakshatra-grand-reel", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/nakshatra-grand-reel/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22277"
+BASE_PATH = "/nakshatra-grand-reel/"

@@ -1,0 +1,9 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "bUaOWaGz56VMr8niVel-n"
+uri = "file://artifacts/nakshatra-grand-reel/public/audio/bg_music.mp3"
+type = "audio"
+title = "restaurant film music"
+description = "Generated music: Cinematic minimal instrumental background music for a premium South Indian restaurant brand film. Warm bamboo flute phrases, restrained mridangam and hand percussion, soft tanpura dr…"
