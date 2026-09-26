@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Nakshatra Grand Restaurant"
+description = "A premium animated restaurant website for Nakshatra Grand Restaurant in Sitarampuram, Andhra Pradesh, showcasing its Indian dining experience, menu highlights, story, and visit information."
+version = "1.0.0"
+id = "artifacts/nakshatra-grand"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23001
+
+[services.development]
+run = "pnpm --filter @workspace/nakshatra-grand run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/nakshatra-grand", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/nakshatra-grand/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23001"
+BASE_PATH = "/"
