@@ -322,58 +322,6 @@ function Home() {
   </div>
 </section>
 
-      <section id="story"
-        <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(30,25,23,.96)_0%,rgba(30,25,23,.7)_38%,rgba(30,25,23,.18)_80%),linear-gradient(0deg,rgba(30,25,23,.96),transparent_50%)]" />
-        <div className="absolute right-[8%] top-[25%] -z-10 hidden h-[260px] w-[260px] rounded-full border border-[#b28b4c]/25 lg:block" />
-        <div className="absolute right-[12%] top-[31%] -z-10 hidden h-[170px] w-[170px] rounded-full border border-[#b28b4c]/20 lg:block" />
-        <div className="mx-auto w-full max-w-[1320px] px-5 pb-16 sm:px-8 sm:pb-20 lg:px-12 lg:pb-28">
-          <div className="max-w-[720px]">
-            <p className="reveal star-rule mb-6 text-[10px] font-semibold uppercase tracking-[0.34em] text-[#d2b276]" data-testid="text-hero-eyebrow">
-              A table for the evening
-            </p>
-            <h1 className="reveal reveal-delay-1 text-balance font-display text-[clamp(3.6rem,9vw,8.8rem)] leading-[.88] tracking-[-0.055em] text-[#f5eee3]" data-testid="heading-hero">
-              Come hungry.<br />
-              <em className="text-[#d2b276]">Leave glowing.</em>
-            </h1>
-            <p className="reveal reveal-delay-2 mt-7 max-w-[500px] text-base leading-7 text-[#d8cec0] sm:text-lg">
-              Andhra’s generous flavours, served with the polish of an evening worth dressing up for. Welcome to Nakshatra Grand.
-            </p>
-            <p className="reveal reveal-delay-2 mt-4 font-telugu text-base text-[#bfb3a2]" lang="te">
-              రుచితో నిండిన ఒక అందమైన సాయంత్రం
-            </p>
-            <div className="reveal reveal-delay-3 mt-9 flex flex-wrap items-center gap-4">
-              <button
-                type="button"
-                onClick={() => setIsReservationOpen(true)}
-                className="group inline-flex items-center gap-4 bg-[#b28b4c] px-6 py-4 text-xs font-bold uppercase tracking-[0.16em] text-[#251d1a] transition-transform hover:-translate-y-0.5"
-                data-testid="button-reserve-hero"
-              >
-                {copy.reserve}
-                <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
-              </button>
-              <a
-                href="#menu"
-                className="inline-flex items-center gap-3 border border-[#d9d0c0]/50 px-6 py-4 text-xs font-bold uppercase tracking-[0.16em] text-[#f1e9dc] transition-colors hover:border-[#d2b276] hover:text-[#d2b276]"
-                data-testid="link-explore-menu"
-              >
-                {copy.explore}
-                <ChevronDown size={15} />
-              </a>
-            </div>
-          </div>
-          <div className="mt-20 flex flex-wrap items-end justify-between gap-8 border-t border-white/20 pt-5 text-[11px] uppercase tracking-[0.17em] text-[#d8cec0] sm:mt-24">
-            <div className="flex items-center gap-3" data-testid="text-hero-location">
-              <MapPin size={15} className="text-[#d2b276]" />
-              <span>Sitarampuram, Andhra Pradesh</span>
-            </div>
-            <div className="flex items-center gap-6">
-              <span className="flex items-center gap-2" data-testid="text-hero-rating"><Star size={14} fill="#b28b4c" className="text-[#b28b4c]" /> 4.1 / 5 <span className="text-[#978f84]">49 reviews</span></span>
-              <span className="hidden text-[#978f84] sm:block">Open until 11:00 PM</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="story" className="relative overflow-hidden bg-[#f1e9dc] px-5 py-20 sm:px-8 sm:py-28 lg:px-12 lg:py-36">
         <div className="mx-auto grid max-w-[1150px] gap-14 lg:grid-cols-[.8fr_1.2fr] lg:items-end lg:gap-24">
           <div>
