@@ -102,7 +102,7 @@ function Home() {
     const description = document.querySelector('meta[name="description"]');
     description?.setAttribute(
       'content',
-      'A warm, polished Andhra dining room in Sitarampuram. Dine in for generous biryanis, regional favourites and an evening worth dressing up for.',
+      'A warm, polished Andhra dining room in Seetharampuram. Dine in for generous biryanis, regional favourites and an evening worth dressing up for.',
     );
   }, []);
 
@@ -284,7 +284,7 @@ function Home() {
       </div>
 
       <p className="mt-4 text-xs uppercase tracking-[0.15em] text-[#a99d8e]">
-        Sitarampuram, Seetharamapuram, Andhra Pradesh
+        Narsapur, Seetharamapuram, Andhra Pradesh
       </p>
 
     </div>
