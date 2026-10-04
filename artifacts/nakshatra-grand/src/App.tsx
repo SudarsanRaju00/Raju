@@ -118,6 +118,9 @@ function Home() {
 
   return (
     <main className="site-shell min-h-[100dvh]">
+      <div className="fixed right-3 top-20 z-50 rounded-sm border border-[#d2b276]/60 bg-[#251d1a]/95 px-3 py-2 text-[9px] font-bold uppercase tracking-[0.14em] text-[#d2b276] shadow-lg backdrop-blur-sm">
+      DEMO • CLIENT PREVIEW
+    </div>
       <header className="nav-shell fixed inset-x-0 top-0 z-40 border-b border-white/10 text-[#f1e9dc]">
         <div className="mx-auto flex h-[76px] max-w-[1320px] items-center justify-between px-5 sm:px-8 lg:px-12">
           <a
@@ -133,9 +136,6 @@ function Home() {
               <span className="block font-display text-[17px] tracking-[0.13em] text-[#f1e9dc]">NAKSHATRA</span>
               <span className="mt-1 block text-[9px] font-semibold tracking-[0.32em] text-[#b28b4c]">GRAND RESTAURANT</span>
             </span>
-            <span className="ml-3 hidden border border-[#d2b276]/50 bg-[#251d1a]/80 px-2.5 py-1 text-[8px] font-bold uppercase tracking-[0.18em] text-[#d2b276] backdrop-blur-sm sm:inline-block">
-  DEMO • CLIENT PREVIEW
-</span>
           </a>
 
           <nav className="hidden items-center gap-9 md:flex" aria-label="Primary navigation">
