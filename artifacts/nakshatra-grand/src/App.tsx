@@ -427,7 +427,7 @@ function Home() {
             <div className="mt-10 grid max-w-[580px] grid-cols-1 gap-7 border-t border-[#c1ae98] pt-7 sm:grid-cols-2">
               <div>
                 <p className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.22em] text-[#8d6b3e]"><MapPin size={14} /> Find us</p>
-                <p className="mt-3 text-base leading-7 text-[#544940]" data-testid="text-address">CMF2+HR2, Sitarampuram,<br />Seetharamapuram, Andhra Pradesh 534275</p>
+                <p className="mt-3 text-base leading-7 text-[#544940]" data-testid="text-address">CMF2+HR2, Seetharampuram,<br />Narsapur, Andhra Pradesh 534275</p>
                 <a
                   href="https://www.google.com/maps/search/?api=1&query=CMF2%2BHR2%2C%20Sitarampuram%2C%20Seetharamapuram%2C%20Andhra%20Pradesh%20534275"
                   target="_blank"
@@ -453,12 +453,12 @@ function Home() {
             <div className="absolute left-[50%] top-[47%] h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#d2b276] shadow-[0_0_0_9px_rgba(210,178,118,.18)]" />
             <div className="relative flex h-full flex-col justify-between">
               <div>
-                <div className="flex items-center gap-3 text-[#d2b276]"><Compass size={18} /><span className="text-[10px] font-bold uppercase tracking-[0.24em]">Sitarampuram</span></div>
+                <div className="flex items-center gap-3 text-[#d2b276]"><Compass size={18} /><span className="text-[10px] font-bold uppercase tracking-[0.24em]">Seetharampuram</span></div>
                 <h3 className="mt-5 max-w-[230px] font-display text-4xl leading-none">Follow the<br /><em>glow.</em></h3>
               </div>
               <div className="border-t border-[#65544a] pt-5">
                 <p className="text-sm leading-6 text-[#c6b9aa]">CMF2+HR2<br />Seetharamapuram, AP 534275</p>
-                <a href="https://www.google.com/maps/search/?api=1&query=CMF2%2BHR2%2C%20Sitarampuram%2C%20Seetharamapuram%2C%20Andhra%20Pradesh%20534275" target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.18em] text-[#d2b276]" data-testid="link-map-card">Open in maps <ArrowRight size={13} /></a>
+                <a href="https://www.google.com/maps/search/?api=1&query=CMF2%2BHR2%2C%20Seetharampuram%2C%20Narsapur%2C%20Andhra%20Pradesh%20534275" target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.18em] text-[#d2b276]" data-testid="link-map-card">Open in maps <ArrowRight size={13} /></a>
               </div>
             </div>
           </div>
@@ -479,7 +479,7 @@ function Home() {
           </div>
         </div>
         <div className="mx-auto flex max-w-[1320px] flex-col justify-between gap-3 pt-6 text-[10px] uppercase tracking-[0.15em] text-[#81766e] sm:flex-row">
-          <span data-testid="text-footer-location">Sitarampuram · Andhra Pradesh</span>
+          <span data-testid="text-footer-location">Seetharampuram · Andhra Pradesh</span>
           <span data-testid="text-footer-service">Dine-in · Open until 11:00 PM</span>
         </div>
       </footer>
