@@ -218,17 +218,74 @@ function Home() {
   id="top"
   className="hero-noise relative isolate flex min-h-[720px] items-end overflow-hidden bg-[#251d1a] pt-[76px] text-[#f1e9dc] sm:min-h-[790px]"
 >
-
-  {/* HERO IMAGE — IDI UNDAALI */}
-  <img 
-    src="/images/hero-thali.jpg" 
-    alt="A generous Indian thali and biryani set for an evening meal" 
-    className="hero-image absolute inset-0 -z-20 h-full w-full object-cover object-center opacity-65" 
-    data-testid="img-hero-food" 
+  {/* HERO IMAGE */}
+  <img
+    src="/images/hero-thali.jpg"
+    alt="A generous Indian thali and biryani set for an evening meal"
+    className="hero-image absolute inset-0 -z-20 h-full w-full object-cover object-center opacity-65"
+    data-testid="img-hero-food"
   />
 
-  {/* existing hero overlay + content */}
-  
+  {/* HERO OVERLAY */}
+  <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(30,25,23,.96)_0%,rgba(30,25,23,.7)_38%,rgba(30,25,23,.18)_80%),linear-gradient(0deg,rgba(30,25,23,.96),transparent_50%)]" />
+
+  {/* DECORATIVE GLOW */}
+  <div className="absolute right-[-120px] top-[120px] -z-10 h-[360px] w-[360px] rounded-full border border-[#d2b276]/20" />
+  <div className="absolute right-[-40px] top-[200px] -z-10 h-[220px] w-[220px] rounded-full border border-[#d2b276]/10" />
+
+  {/* HERO CONTENT */}
+  <div className="relative z-10 mx-auto w-full max-w-[1400px] px-5 pb-16 sm:px-8 sm:pb-20 lg:px-12 lg:pb-24">
+    <div className="max-w-[760px]">
+
+      <p className="mb-5 text-[10px] font-bold uppercase tracking-[0.35em] text-[#d2b276]">
+        Welcome to Nakshatra Grand
+      </p>
+
+      <h1 className="font-display text-5xl leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">
+        Where every meal
+        <br />
+        <em className="text-[#d2b276]">
+          becomes a memory.
+        </em>
+      </h1>
+
+      <p className="mt-7 max-w-[600px] text-sm leading-7 text-[#d8cfc2] sm:text-base">
+        Experience rich Indian flavours, warm hospitality and an elegant
+        dining atmosphere at Nakshatra Grand Restaurant.
+      </p>
+
+      {/* BUTTONS */}
+      <div className="mt-8 flex flex-wrap gap-3">
+
+        <button
+          onClick={() => setIsReservationOpen(true)}
+          className="border border-[#b28b4c] bg-[#b28b4c] px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-[#251d1a] transition hover:bg-[#d2b276]"
+        >
+          Reserve a Table
+        </button>
+
+        <a
+          href="#menu"
+          className="border border-[#f1e9dc]/40 px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-[#f1e9dc] transition hover:border-[#d2b276] hover:text-[#d2b276]"
+        >
+          Explore Menu
+        </a>
+
+      </div>
+
+      {/* RESTAURANT INFO */}
+      <div className="mt-10 flex flex-wrap items-center gap-6 text-xs text-[#c9bfb1]">
+        <span>★ 4.1 / 5</span>
+        <span>49 Reviews</span>
+        <span>₹200–₹400 per person</span>
+      </div>
+
+      <p className="mt-4 text-xs uppercase tracking-[0.15em] text-[#a99d8e]">
+        Sitarampuram, Seetharamapuram, Andhra Pradesh
+      </p>
+
+    </div>
+  </div>
 </section>
 
 
