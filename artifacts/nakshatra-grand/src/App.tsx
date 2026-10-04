@@ -133,6 +133,9 @@ function Home() {
               <span className="block font-display text-[17px] tracking-[0.13em] text-[#f1e9dc]">NAKSHATRA</span>
               <span className="mt-1 block text-[9px] font-semibold tracking-[0.32em] text-[#b28b4c]">GRAND RESTAURANT</span>
             </span>
+            <span className="ml-3 hidden border border-[#d2b276]/50 bg-[#251d1a]/80 px-2.5 py-1 text-[8px] font-bold uppercase tracking-[0.18em] text-[#d2b276] backdrop-blur-sm sm:inline-block">
+  DEMO • CLIENT PREVIEW
+</span>
           </a>
 
           <nav className="hidden items-center gap-9 md:flex" aria-label="Primary navigation">
